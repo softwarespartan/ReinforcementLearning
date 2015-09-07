@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    153703,       3143]
-NotebookOptionsPosition[    152226,       3093]
-NotebookOutlinePosition[    152580,       3109]
-CellTagsIndexPosition[    152537,       3106]
+NotebookDataLength[    154116,       3153]
+NotebookOptionsPosition[    152639,       3103]
+NotebookOutlinePosition[    152993,       3119]
+CellTagsIndexPosition[    152950,       3116]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3084,12 +3084,22 @@ Cell[BoxData[
           RowBox[{"Style", "[", 
            RowBox[{"\"\<Policy: \[Pi](s)\>\"", ",", 
             RowBox[{"FontSize", "\[Rule]", "12"}]}], "]"}]}], "}"}]}]}], 
-      "]"}]}], ";"}]}]}]], "Input",
+      "]"}]}], ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
+   RowBox[{"(*", " ", 
+    RowBox[{
+    "plot", " ", "the", " ", "current", " ", "value", " ", "function", " ", 
+     "and", " ", "policy"}], " ", "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Grid", "[", 
+     RowBox[{"{", 
+      RowBox[{"{", 
+       RowBox[{"V", ",", "p"}], "}"}], "}"}], "]"}], ";"}]}]}]], "Input",
  CellChangeTimes->{{3.650092355390781*^9, 3.650092360466662*^9}, {
    3.650562051728217*^9, 3.65056205402956*^9}, {3.650572964635503*^9, 
    3.6505729647371693`*^9}, {3.6505780153871403`*^9, 3.650578016187357*^9}, {
    3.650580676945236*^9, 3.650580769988707*^9}, {3.6505808041910563`*^9, 
-   3.650580808135002*^9}, 3.65058088212329*^9}]
+   3.650580808135002*^9}, 3.65058088212329*^9, {3.650581249910006*^9, 
+   3.650581278130528*^9}}]
 },
 WindowSize->{1635, 1005},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
@@ -3144,7 +3154,7 @@ Cell[137873, 2740, 1999, 46, 251, "Output"]
 }, Open  ]],
 Cell[139887, 2789, 963, 24, 46, "Input"],
 Cell[140853, 2815, 2828, 65, 284, "Input"],
-Cell[143684, 2882, 8538, 209, 590, "Input"]
+Cell[143684, 2882, 8951, 219, 641, "Input"]
 }
 ]
 *)
